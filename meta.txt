@@ -1,0 +1,7 @@
+#cloud-config
+users:
+  - name: root
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8S2S6lwzWSRSphe8ALPP8fvQNvMMl+5B/QHyJo9jzY4CvDnNUKahpX+tcS5VJsphNjyqvw+QIrpOWz0KQSoQbZqmlzw1d7e2p8vBReGsDZameXBIj8Vz0GeybttPX36fG6B474hOVW8Up+ei3pwkqHqI6idMunj5MKuzNMx0v1yIqHpsFWEH1QSf1ZNBixgIwjbY+H0AfcIVDGFmpO6jwp3X5+gpi4qRFFNZFXY+0+ATXjefeQx+klJis5S3e/Rvz/oY2wMwnqMD7HcZRSqVjtW4Ad3q02Hy9nPyrAAqnQvJKOLUL3esgntohpgs9C+TSajxymx8ySoQJllnklXov root@ubuntu
+
